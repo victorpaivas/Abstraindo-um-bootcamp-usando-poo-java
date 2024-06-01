@@ -29,5 +29,7 @@ public class Main {
 
         System.out.println(curso1);
         System.out.println(curso2);
+
+        //TODO POLIMORFISMO, PARTE 2 BOOTCAMP DIO SANTANDER
     }
 }
