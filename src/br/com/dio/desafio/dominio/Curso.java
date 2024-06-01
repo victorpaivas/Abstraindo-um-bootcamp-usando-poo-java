@@ -7,7 +7,7 @@ public class Curso {
     private int cargaHorario;
 
     public String getTitulo() {
-        return titulo;
+        return "Titulo: " + titulo;
     }
 
     public void setTitulo(String titulo) {
@@ -28,6 +28,14 @@ public class Curso {
 
     public void setCargaHorario(int cargaHorario) {
         this.cargaHorario = cargaHorario;
+    }
+
+    @Override
+    public String toString() {
+        return "\n Curso" +
+                "\n titulo: " + titulo +
+                "\n descricao: " + descricao +
+                "\n cargaHorario: " + cargaHorario;
     }
 
 
